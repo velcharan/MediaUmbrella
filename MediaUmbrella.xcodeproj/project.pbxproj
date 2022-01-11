@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		350D665D278C382400B54A44 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D665C278C382400B54A44 /* AppDelegate.swift */; };
 		350D665F278C382400B54A44 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D665E278C382400B54A44 /* SceneDelegate.swift */; };
-		350D6661278C382400B54A44 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D6660278C382400B54A44 /* ViewController.swift */; };
 		350D6664278C382400B54A44 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350D6662278C382400B54A44 /* Main.storyboard */; };
 		350D6666278C382D00B54A44 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 350D6665278C382D00B54A44 /* Assets.xcassets */; };
 		350D6669278C382D00B54A44 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 350D6667278C382D00B54A44 /* LaunchScreen.storyboard */; };
+		350D6671278C3C5000B54A44 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D6670278C3C5000B54A44 /* Extensions.swift */; };
+		350D6673278C3C8B00B54A44 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D6672278C3C8B00B54A44 /* LoginViewController.swift */; };
+		350D6677278C512800B54A44 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D6676278C512800B54A44 /* SignUpViewController.swift */; };
+		35DA2973278D78200075E2BE /* TermsConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2972278D78200075E2BE /* TermsConditionsViewController.swift */; };
+		35DA2976278D7BDF0075E2BE /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2975278D7BDF0075E2BE /* PrivacyPolicyViewController.swift */; };
+		35DA2978278D7BF90075E2BE /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2977278D7BF90075E2BE /* AboutUsViewController.swift */; };
+		35DA297A278D82790075E2BE /* HowAppWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2979278D82790075E2BE /* HowAppWorksViewController.swift */; };
+		35DA297C278D9FC90075E2BE /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA297B278D9FC90075E2BE /* OTPViewController.swift */; };
+		35DA297E278DA7760075E2BE /* AddSocialLinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA297D278DA7760075E2BE /* AddSocialLinksViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		350D6659278C382400B54A44 /* MediaUmbrella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaUmbrella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		350D665C278C382400B54A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		350D665E278C382400B54A44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		350D6660278C382400B54A44 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		350D6663278C382400B54A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		350D6665278C382D00B54A44 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		350D6668278C382D00B54A44 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		350D666A278C382D00B54A44 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		350D6670278C3C5000B54A44 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		350D6672278C3C8B00B54A44 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		350D6676278C512800B54A44 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		35DA2972278D78200075E2BE /* TermsConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditionsViewController.swift; sourceTree = "<group>"; };
+		35DA2975278D7BDF0075E2BE /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
+		35DA2977278D7BF90075E2BE /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		35DA2979278D82790075E2BE /* HowAppWorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowAppWorksViewController.swift; sourceTree = "<group>"; };
+		35DA297B278D9FC90075E2BE /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
+		35DA297D278DA7760075E2BE /* AddSocialLinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSocialLinksViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +74,69 @@
 			children = (
 				350D665C278C382400B54A44 /* AppDelegate.swift */,
 				350D665E278C382400B54A44 /* SceneDelegate.swift */,
-				350D6660278C382400B54A44 /* ViewController.swift */,
+				35DA297D278DA7760075E2BE /* AddSocialLinksViewController.swift */,
+				350D6678278C513100B54A44 /* SignUp Properties */,
+				350D6674278C40A600B54A44 /* Login Properties */,
+				35DA2974278D78290075E2BE /* Terms & Condtions */,
+				35DA297F278DAD120075E2BE /* OTP Page */,
+				35DA2980278DAD230075E2BE /* HowAppWorks Page */,
+				350D6675278C40B600B54A44 /* Extension's */,
 				350D6662278C382400B54A44 /* Main.storyboard */,
 				350D6665278C382D00B54A44 /* Assets.xcassets */,
 				350D6667278C382D00B54A44 /* LaunchScreen.storyboard */,
 				350D666A278C382D00B54A44 /* Info.plist */,
 			);
 			path = MediaUmbrella;
+			sourceTree = "<group>";
+		};
+		350D6674278C40A600B54A44 /* Login Properties */ = {
+			isa = PBXGroup;
+			children = (
+				350D6672278C3C8B00B54A44 /* LoginViewController.swift */,
+			);
+			path = "Login Properties";
+			sourceTree = "<group>";
+		};
+		350D6675278C40B600B54A44 /* Extension's */ = {
+			isa = PBXGroup;
+			children = (
+				350D6670278C3C5000B54A44 /* Extensions.swift */,
+			);
+			path = "Extension's";
+			sourceTree = "<group>";
+		};
+		350D6678278C513100B54A44 /* SignUp Properties */ = {
+			isa = PBXGroup;
+			children = (
+				350D6676278C512800B54A44 /* SignUpViewController.swift */,
+			);
+			path = "SignUp Properties";
+			sourceTree = "<group>";
+		};
+		35DA2974278D78290075E2BE /* Terms & Condtions */ = {
+			isa = PBXGroup;
+			children = (
+				35DA2975278D7BDF0075E2BE /* PrivacyPolicyViewController.swift */,
+				35DA2977278D7BF90075E2BE /* AboutUsViewController.swift */,
+				35DA2972278D78200075E2BE /* TermsConditionsViewController.swift */,
+			);
+			path = "Terms & Condtions";
+			sourceTree = "<group>";
+		};
+		35DA297F278DAD120075E2BE /* OTP Page */ = {
+			isa = PBXGroup;
+			children = (
+				35DA297B278D9FC90075E2BE /* OTPViewController.swift */,
+			);
+			path = "OTP Page";
+			sourceTree = "<group>";
+		};
+		35DA2980278DAD230075E2BE /* HowAppWorks Page */ = {
+			isa = PBXGroup;
+			children = (
+				35DA2979278D82790075E2BE /* HowAppWorksViewController.swift */,
+			);
+			path = "HowAppWorks Page";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,9 +210,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				350D6661278C382400B54A44 /* ViewController.swift in Sources */,
+				35DA297C278D9FC90075E2BE /* OTPViewController.swift in Sources */,
+				35DA297E278DA7760075E2BE /* AddSocialLinksViewController.swift in Sources */,
+				35DA2978278D7BF90075E2BE /* AboutUsViewController.swift in Sources */,
 				350D665D278C382400B54A44 /* AppDelegate.swift in Sources */,
+				35DA297A278D82790075E2BE /* HowAppWorksViewController.swift in Sources */,
+				35DA2976278D7BDF0075E2BE /* PrivacyPolicyViewController.swift in Sources */,
 				350D665F278C382400B54A44 /* SceneDelegate.swift in Sources */,
+				35DA2973278D78200075E2BE /* TermsConditionsViewController.swift in Sources */,
+				350D6673278C3C8B00B54A44 /* LoginViewController.swift in Sources */,
+				350D6671278C3C5000B54A44 /* Extensions.swift in Sources */,
+				350D6677278C512800B54A44 /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,8 +385,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.velcharan.MediaUmbrella;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -333,8 +413,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.velcharan.MediaUmbrella;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
