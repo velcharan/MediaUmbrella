@@ -15,15 +15,33 @@
 		350D6671278C3C5000B54A44 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D6670278C3C5000B54A44 /* Extensions.swift */; };
 		350D6673278C3C8B00B54A44 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D6672278C3C8B00B54A44 /* LoginViewController.swift */; };
 		350D6677278C512800B54A44 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 350D6676278C512800B54A44 /* SignUpViewController.swift */; };
+		3550035C278EC17D0071086C /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3550035B278EC17D0071086C /* FilterViewController.swift */; };
+		3558F389279ED19F006C0811 /* SidemenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3558F388279ED19F006C0811 /* SidemenuViewController.swift */; };
+		3558F38D279ED229006C0811 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3558F38C279ED229006C0811 /* SideMenuTableViewCell.swift */; };
+		3558F38F279ED4A1006C0811 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3558F38E279ED4A1006C0811 /* HomeViewController.swift */; };
+		3558F391279ED95E006C0811 /* PostDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3558F390279ED95E006C0811 /* PostDetailsViewController.swift */; };
+		3558F393279EE6A4006C0811 /* AddPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3558F392279EE6A4006C0811 /* AddPostViewController.swift */; };
+		3558F395279EEA78006C0811 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3558F394279EEA78006C0811 /* ProfileViewController.swift */; };
+		3558F397279EEC3A006C0811 /* AddNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3558F396279EEC3A006C0811 /* AddNoteViewController.swift */; };
+		3558F39A279EF039006C0811 /* MemberShipRenewalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3558F399279EF038006C0811 /* MemberShipRenewalViewController.swift */; };
+		3558F39C279EF0CC006C0811 /* SocialLinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3558F39B279EF0CC006C0811 /* SocialLinksViewController.swift */; };
+		359D80A927954A9400874C1C /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D80A827954A9400874C1C /* ContactUsViewController.swift */; };
+		359D80AB2795537B00874C1C /* PaymentSuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D80AA2795537B00874C1C /* PaymentSuccessViewController.swift */; };
+		359D80AD279556BB00874C1C /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D80AC279556BB00874C1C /* EditProfileViewController.swift */; };
+		359D80AF2795737500874C1C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 359D80AE2795737500874C1C /* SettingsViewController.swift */; };
+		35A5AE0F279FCE920061BE96 /* PackagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A5AE0E279FCE920061BE96 /* PackagesViewController.swift */; };
+		35A5AE11279FD0810061BE96 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35A5AE10279FD0810061BE96 /* PaymentViewController.swift */; };
 		35DA2973278D78200075E2BE /* TermsConditionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2972278D78200075E2BE /* TermsConditionsViewController.swift */; };
 		35DA2976278D7BDF0075E2BE /* PrivacyPolicyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2975278D7BDF0075E2BE /* PrivacyPolicyViewController.swift */; };
 		35DA2978278D7BF90075E2BE /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2977278D7BF90075E2BE /* AboutUsViewController.swift */; };
 		35DA297A278D82790075E2BE /* HowAppWorksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA2979278D82790075E2BE /* HowAppWorksViewController.swift */; };
 		35DA297C278D9FC90075E2BE /* OTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA297B278D9FC90075E2BE /* OTPViewController.swift */; };
 		35DA297E278DA7760075E2BE /* AddSocialLinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35DA297D278DA7760075E2BE /* AddSocialLinksViewController.swift */; };
+		E1D68B5DECB8953CAC273467 /* libPods-MediaUmbrella.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F731A2053FADFA353FD718F /* libPods-MediaUmbrella.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		224302C926AD2F37B8C76945 /* Pods-MediaUmbrella.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaUmbrella.debug.xcconfig"; path = "Target Support Files/Pods-MediaUmbrella/Pods-MediaUmbrella.debug.xcconfig"; sourceTree = "<group>"; };
 		350D6659278C382400B54A44 /* MediaUmbrella.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MediaUmbrella.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		350D665C278C382400B54A44 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		350D665E278C382400B54A44 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -34,12 +52,30 @@
 		350D6670278C3C5000B54A44 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		350D6672278C3C8B00B54A44 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		350D6676278C512800B54A44 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3550035B278EC17D0071086C /* FilterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		3558F388279ED19F006C0811 /* SidemenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidemenuViewController.swift; sourceTree = "<group>"; };
+		3558F38C279ED229006C0811 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		3558F38E279ED4A1006C0811 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3558F390279ED95E006C0811 /* PostDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostDetailsViewController.swift; sourceTree = "<group>"; };
+		3558F392279EE6A4006C0811 /* AddPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPostViewController.swift; sourceTree = "<group>"; };
+		3558F394279EEA78006C0811 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3558F396279EEC3A006C0811 /* AddNoteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNoteViewController.swift; sourceTree = "<group>"; };
+		3558F399279EF038006C0811 /* MemberShipRenewalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberShipRenewalViewController.swift; sourceTree = "<group>"; };
+		3558F39B279EF0CC006C0811 /* SocialLinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialLinksViewController.swift; sourceTree = "<group>"; };
+		359D80A827954A9400874C1C /* ContactUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		359D80AA2795537B00874C1C /* PaymentSuccessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentSuccessViewController.swift; sourceTree = "<group>"; };
+		359D80AC279556BB00874C1C /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		359D80AE2795737500874C1C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		35A5AE0E279FCE920061BE96 /* PackagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PackagesViewController.swift; sourceTree = "<group>"; };
+		35A5AE10279FD0810061BE96 /* PaymentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
 		35DA2972278D78200075E2BE /* TermsConditionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditionsViewController.swift; sourceTree = "<group>"; };
 		35DA2975278D7BDF0075E2BE /* PrivacyPolicyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyViewController.swift; sourceTree = "<group>"; };
 		35DA2977278D7BF90075E2BE /* AboutUsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
 		35DA2979278D82790075E2BE /* HowAppWorksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HowAppWorksViewController.swift; sourceTree = "<group>"; };
 		35DA297B278D9FC90075E2BE /* OTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPViewController.swift; sourceTree = "<group>"; };
 		35DA297D278DA7760075E2BE /* AddSocialLinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSocialLinksViewController.swift; sourceTree = "<group>"; };
+		7F731A2053FADFA353FD718F /* libPods-MediaUmbrella.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MediaUmbrella.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BECBE45BDEE7B137283F95F1 /* Pods-MediaUmbrella.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MediaUmbrella.release.xcconfig"; path = "Target Support Files/Pods-MediaUmbrella/Pods-MediaUmbrella.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,17 +83,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1D68B5DECB8953CAC273467 /* libPods-MediaUmbrella.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0DBFB0B0114CBA335C057551 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F731A2053FADFA353FD718F /* libPods-MediaUmbrella.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		350D6650278C382300B54A44 = {
 			isa = PBXGroup;
 			children = (
 				350D665B278C382400B54A44 /* MediaUmbrella */,
 				350D665A278C382400B54A44 /* Products */,
+				8C3108D8B80EA08064283C3F /* Pods */,
+				0DBFB0B0114CBA335C057551 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -75,6 +122,7 @@
 				350D665C278C382400B54A44 /* AppDelegate.swift */,
 				350D665E278C382400B54A44 /* SceneDelegate.swift */,
 				35DA297D278DA7760075E2BE /* AddSocialLinksViewController.swift */,
+				3550035B278EC17D0071086C /* FilterViewController.swift */,
 				350D6678278C513100B54A44 /* SignUp Properties */,
 				350D6674278C40A600B54A44 /* Login Properties */,
 				35DA2974278D78290075E2BE /* Terms & Condtions */,
@@ -85,6 +133,21 @@
 				350D6665278C382D00B54A44 /* Assets.xcassets */,
 				350D6667278C382D00B54A44 /* LaunchScreen.storyboard */,
 				350D666A278C382D00B54A44 /* Info.plist */,
+				359D80A827954A9400874C1C /* ContactUsViewController.swift */,
+				359D80AA2795537B00874C1C /* PaymentSuccessViewController.swift */,
+				359D80AC279556BB00874C1C /* EditProfileViewController.swift */,
+				359D80AE2795737500874C1C /* SettingsViewController.swift */,
+				3558F388279ED19F006C0811 /* SidemenuViewController.swift */,
+				3558F396279EEC3A006C0811 /* AddNoteViewController.swift */,
+				3558F394279EEA78006C0811 /* ProfileViewController.swift */,
+				3558F39B279EF0CC006C0811 /* SocialLinksViewController.swift */,
+				3558F38C279ED229006C0811 /* SideMenuTableViewCell.swift */,
+				3558F38E279ED4A1006C0811 /* HomeViewController.swift */,
+				3558F392279EE6A4006C0811 /* AddPostViewController.swift */,
+				3558F390279ED95E006C0811 /* PostDetailsViewController.swift */,
+				3558F399279EF038006C0811 /* MemberShipRenewalViewController.swift */,
+				35A5AE0E279FCE920061BE96 /* PackagesViewController.swift */,
+				35A5AE10279FD0810061BE96 /* PaymentViewController.swift */,
 			);
 			path = MediaUmbrella;
 			sourceTree = "<group>";
@@ -139,6 +202,15 @@
 			path = "HowAppWorks Page";
 			sourceTree = "<group>";
 		};
+		8C3108D8B80EA08064283C3F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				224302C926AD2F37B8C76945 /* Pods-MediaUmbrella.debug.xcconfig */,
+				BECBE45BDEE7B137283F95F1 /* Pods-MediaUmbrella.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -146,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 350D666D278C382D00B54A44 /* Build configuration list for PBXNativeTarget "MediaUmbrella" */;
 			buildPhases = (
+				9ADC3E6AE4AF84326553ECC4 /* [CP] Check Pods Manifest.lock */,
 				350D6655278C382400B54A44 /* Sources */,
 				350D6656278C382400B54A44 /* Frameworks */,
 				350D6657278C382400B54A44 /* Resources */,
@@ -205,6 +278,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9ADC3E6AE4AF84326553ECC4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MediaUmbrella-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		350D6655278C382400B54A44 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -212,13 +310,29 @@
 			files = (
 				35DA297C278D9FC90075E2BE /* OTPViewController.swift in Sources */,
 				35DA297E278DA7760075E2BE /* AddSocialLinksViewController.swift in Sources */,
+				3558F38F279ED4A1006C0811 /* HomeViewController.swift in Sources */,
+				3558F39C279EF0CC006C0811 /* SocialLinksViewController.swift in Sources */,
 				35DA2978278D7BF90075E2BE /* AboutUsViewController.swift in Sources */,
 				350D665D278C382400B54A44 /* AppDelegate.swift in Sources */,
 				35DA297A278D82790075E2BE /* HowAppWorksViewController.swift in Sources */,
+				3558F395279EEA78006C0811 /* ProfileViewController.swift in Sources */,
+				359D80AB2795537B00874C1C /* PaymentSuccessViewController.swift in Sources */,
+				35A5AE0F279FCE920061BE96 /* PackagesViewController.swift in Sources */,
 				35DA2976278D7BDF0075E2BE /* PrivacyPolicyViewController.swift in Sources */,
+				359D80AF2795737500874C1C /* SettingsViewController.swift in Sources */,
+				3558F391279ED95E006C0811 /* PostDetailsViewController.swift in Sources */,
+				3550035C278EC17D0071086C /* FilterViewController.swift in Sources */,
+				359D80AD279556BB00874C1C /* EditProfileViewController.swift in Sources */,
+				359D80A927954A9400874C1C /* ContactUsViewController.swift in Sources */,
+				35A5AE11279FD0810061BE96 /* PaymentViewController.swift in Sources */,
+				3558F393279EE6A4006C0811 /* AddPostViewController.swift in Sources */,
 				350D665F278C382400B54A44 /* SceneDelegate.swift in Sources */,
+				3558F397279EEC3A006C0811 /* AddNoteViewController.swift in Sources */,
+				3558F39A279EF039006C0811 /* MemberShipRenewalViewController.swift in Sources */,
+				3558F389279ED19F006C0811 /* SidemenuViewController.swift in Sources */,
 				35DA2973278D78200075E2BE /* TermsConditionsViewController.swift in Sources */,
 				350D6673278C3C8B00B54A44 /* LoginViewController.swift in Sources */,
+				3558F38D279ED229006C0811 /* SideMenuTableViewCell.swift in Sources */,
 				350D6671278C3C5000B54A44 /* Extensions.swift in Sources */,
 				350D6677278C512800B54A44 /* SignUpViewController.swift in Sources */,
 			);
@@ -364,12 +478,13 @@
 		};
 		350D666E278C382D00B54A44 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 224302C926AD2F37B8C76945 /* Pods-MediaUmbrella.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B5DDC78FUD;
+				DEVELOPMENT_TEAM = G76FTMG48V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MediaUmbrella/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -377,12 +492,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.velcharan.MediaUmbrella;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volive.MediaUmbrella;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 4.0;
@@ -392,12 +508,13 @@
 		};
 		350D666F278C382D00B54A44 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BECBE45BDEE7B137283F95F1 /* Pods-MediaUmbrella.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = B5DDC78FUD;
+				DEVELOPMENT_TEAM = G76FTMG48V;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = MediaUmbrella/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -405,12 +522,13 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.velcharan.MediaUmbrella;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volive.MediaUmbrella;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 4.0;

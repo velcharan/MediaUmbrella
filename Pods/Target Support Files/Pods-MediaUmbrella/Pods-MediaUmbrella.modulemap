@@ -1,0 +1,6 @@
+module Pods_MediaUmbrella {
+  umbrella header "Pods-MediaUmbrella-umbrella.h"
+
+  export *
+  module * { export * }
+}

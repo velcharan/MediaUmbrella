@@ -17,6 +17,10 @@ class SignUpViewController: UIViewController {
     @IBOutlet weak var PasswordTextField: UITextField!
     @IBOutlet weak var RePasswordTextField: UITextField!
     @IBOutlet weak var SignUPButtonOutlet: UIButton!
+    
+    @IBOutlet weak var IndividualImage: UIButton!
+    @IBOutlet weak var CompanyImage: UIButton!
+    @IBOutlet weak var BothImage: UIButton!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -76,6 +80,24 @@ class SignUpViewController: UIViewController {
         sender.pulsate()
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "TermsConditionsViewController") as! TermsConditionsViewController
         self.navigationController?.pushViewController(vc, animated: true)
+    }
+    
+    @IBAction func IndividualBtn(_ sender: UIButton) {
+        IndividualImage.setImage(UIImage(named: "Group 9297"), for: .normal)
+        CompanyImage.setImage(UIImage(named: "Ellipse 1041"), for: .normal)
+        BothImage.setImage(UIImage(named: "Ellipse 1041"), for: .normal)
+    }
+    
+    @IBAction func CompanyBtn(_ sender: UIButton) {
+        CompanyImage.setImage(UIImage(named: "Group 9297"), for: .normal)
+        IndividualImage.setImage(UIImage(named: "Ellipse 1041"), for: .normal)
+        BothImage.setImage(UIImage(named: "Ellipse 1041"), for: .normal)
+    }
+    
+    @IBAction func BothBtn(_ sender: UIButton) {
+        BothImage.setImage(UIImage(named: "Group 9297"), for: .normal)
+        CompanyImage.setImage(UIImage(named: "Ellipse 1041"), for: .normal)
+        IndividualImage.setImage(UIImage(named: "Ellipse 1041"), for: .normal)
     }
     
     

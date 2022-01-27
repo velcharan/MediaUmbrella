@@ -35,6 +35,8 @@ class AddSocialLinksViewController: UIViewController {
     
     @IBAction func AddLinks(_ sender: UIButton) {
         sender.pulsate()
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        self.navigationController?.pushViewController(vc, animated: true)
     }
 
 }

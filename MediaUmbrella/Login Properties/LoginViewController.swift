@@ -46,6 +46,8 @@ class LoginViewController: UIViewController {
     
     @IBAction func SignIn(_ sender: UIButton) {
         sender.pulsate()
+        let vc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        self.navigationController?.pushViewController(vc, animated: true)
     }
     
     @IBAction func ForgotPassword(_ sender: UIButton) {
